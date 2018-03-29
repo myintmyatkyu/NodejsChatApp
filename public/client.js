@@ -1,4 +1,4 @@
-var socket=io('https://cryptic-cove-91735.herokuapp.com:4000');
+var socket=io('https://cryptic-cove-91735.herokuapp.com');
 
 socket.on('messages',function(data){
     newFunction(data);
