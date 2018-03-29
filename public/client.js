@@ -1,4 +1,4 @@
-var socket=io.connect('http://12.0.0.1:4000');
+var socket=io.connect('https://12.0.0.1:4000');
 
 socket.on('messages',function(data){
     newFunction(data);
