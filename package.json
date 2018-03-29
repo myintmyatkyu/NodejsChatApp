@@ -1,0 +1,20 @@
+{
+  "name": "archer_chat",
+  "version": "1.0.0",
+  "description": "Sample Chat Application created by Archer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "archer",
+    "node.js"
+  ],
+  "author": "Archer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  }
+}
