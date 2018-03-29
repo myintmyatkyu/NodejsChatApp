@@ -2,7 +2,7 @@ var express=require('express');
 var app=express();
 var server=require('http').createServer(app);
 var io=require('socket.io')(server);
-
+var port = process.env.PORT || 4000;
 
 app.get('/',function(req,res,next){
     res.sendFile(__dirname+'/public/index.html');
@@ -27,4 +27,4 @@ io.on('connect',function(client){
     
 })
 
-server.listen(5555);
+server.listen(port);

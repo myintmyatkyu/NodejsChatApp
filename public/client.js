@@ -1,4 +1,4 @@
-var socket=io.connect('http://192.168.43.235:5555');
+var socket=io.connect('http://localhost:4000');
 
 socket.on('messages',function(data){
     newFunction(data);
